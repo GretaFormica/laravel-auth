@@ -10,7 +10,7 @@
 <body>
     <div class="container my-5">
 
-        <form action="{{ route('projects.update', $music) }}" method="POST">
+        <form action="{{ route('projects.update', $project) }}" method="POST">
             @csrf
             @method('PUT')
 
